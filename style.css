@@ -10,3 +10,12 @@ body{
   text-align: center;
   margin-top: 40px;
 }
+
+#player1{
+  position: absolute;
+  text-align: center;
+  width: 40px;
+  height: auto;
+  margin-top: 50%;
+
+}
