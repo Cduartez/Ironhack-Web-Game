@@ -21,7 +21,7 @@ function paintCharacters(board, body) {
   characters.grid.forEach(function(rowArray, i) {
     var row = $('<div>').addClass('rows');
     for (var x = 0; x < rowArray.length; x++) {
-      var column = $('<div>').addClass('characters');
+      var column = $('<div>').addClass('characters' + x);
       row.append(column);
     }
     body.append(row);
@@ -29,6 +29,6 @@ function paintCharacters(board, body) {
 }
 
 $(document).ready(function() {
-  var body = $('#board');
+  var body = $('#game-board');
   paintCharacters(board, body);
 });

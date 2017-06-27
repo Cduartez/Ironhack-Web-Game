@@ -2,10 +2,7 @@ body{
   background:
 }
 .mesa{
-  width:600px;
-  height: auto;
-  margin: auto;
-  position: relative;
+  
 }
 
 .row {
@@ -33,5 +30,4 @@ body{
   width: 60px;
   display: inline-block;
   text-align: center;
-
 }
