@@ -18,8 +18,20 @@ body{
   background: orange;
   border-radius: 4px;
   box-sizing: border-box;
-  height: 130px;
+  height: 60px;
   margin: 1px;
-  width: 130px;
+  width: 60px;
   display: inline-block;
+}
+
+.characters{
+  background: orange;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 60px;
+  margin: 1px;
+  width: 60px;
+  display: inline-block;
+  text-align: center;
+
 }
