@@ -1,21 +1,25 @@
 body{
-  background: black;
+  background:
 }
-.container{
-  width: 500px;
-  height: 600px;
-  background-color: green;
+.mesa{
+  width:600px;
+  height: auto;
   margin: auto;
   position: relative;
-  text-align: center;
-  margin-top: 40px;
 }
 
-#player1{
-  position: absolute;
+.row {
+  height: 100%;
+  width: 100%;
   text-align: center;
-  width: 40px;
-  height: auto;
-  margin-top: 50%;
+}
 
+.column {
+  background: orange;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 130px;
+  margin: 1px;
+  width: 130px;
+  display: inline-block;
 }
