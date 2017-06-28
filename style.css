@@ -1,6 +1,7 @@
-body{
+body {
   background:
 }
+
 .row {
   height: 100%;
   width: 100%;
@@ -18,7 +19,7 @@ body{
   display: inline-block;
 }
 
-#characters0{
+#cualquiera {
   background-image: url("./images/panda.png");
   border-radius: 4px;
   box-sizing: border-box;
@@ -27,10 +28,19 @@ body{
   width: 60px;
   display: inline-block;
   margin-top: 90px;
+}
 
+#manolo {
+  background-image: url("./images/panda.png");
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 60px;
+  margin: 1px;
+  width: 60px;
+  display: inline-block;
+}
 
-}
-#characters1{
+#maria {
   background-image: url("./images/panda.png");
   border-radius: 4px;
   box-sizing: border-box;
@@ -39,7 +49,8 @@ body{
   width: 60px;
   display: inline-block;
 }
-#characters2{
+
+#characters3 {
   background-image: url("./images/panda.png");
   border-radius: 4px;
   box-sizing: border-box;
@@ -48,7 +59,8 @@ body{
   width: 60px;
   display: inline-block;
 }
-#characters3{
+
+#characters4 {
   background-image: url("./images/panda.png");
   border-radius: 4px;
   box-sizing: border-box;
@@ -57,7 +69,8 @@ body{
   width: 60px;
   display: inline-block;
 }
-#characters4{
+
+#characters5 {
   background-image: url("./images/panda.png");
   border-radius: 4px;
   box-sizing: border-box;
@@ -66,7 +79,8 @@ body{
   width: 60px;
   display: inline-block;
 }
-#characters5{
+
+#characters6 {
   background-image: url("./images/panda.png");
   border-radius: 4px;
   box-sizing: border-box;
@@ -75,7 +89,8 @@ body{
   width: 60px;
   display: inline-block;
 }
-#characters6{
+
+#characters7 {
   background-image: url("./images/panda.png");
   border-radius: 4px;
   box-sizing: border-box;
@@ -84,12 +99,13 @@ body{
   width: 60px;
   display: inline-block;
 }
-#characters7{
-  background-image: url("./images/panda.png");
-  border-radius: 4px;
+
+.chair {
+  background-image: url("./images/sofa.png");
   box-sizing: border-box;
   height: 60px;
   margin: 1px;
   width: 60px;
   display: inline-block;
+  background
 }
