@@ -1,33 +1,95 @@
 body{
   background:
 }
-.mesa{
-  
-}
-
 .row {
   height: 100%;
   width: 100%;
   text-align: center;
+  position: relative;
 }
 
 .column {
   background: orange;
   border-radius: 4px;
   box-sizing: border-box;
-  height: 60px;
+  height: 80px;
   margin: 1px;
-  width: 60px;
+  width: 80px;
   display: inline-block;
 }
 
-.characters{
-  background: orange;
+#characters0{
+  background-image: url("./images/panda.png");
   border-radius: 4px;
   box-sizing: border-box;
   height: 60px;
   margin: 1px;
   width: 60px;
   display: inline-block;
-  text-align: center;
+  margin-top: 90px;
+
+
+}
+#characters1{
+  background-image: url("./images/panda.png");
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 60px;
+  margin: 1px;
+  width: 60px;
+  display: inline-block;
+}
+#characters2{
+  background-image: url("./images/panda.png");
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 60px;
+  margin: 1px;
+  width: 60px;
+  display: inline-block;
+}
+#characters3{
+  background-image: url("./images/panda.png");
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 60px;
+  margin: 1px;
+  width: 60px;
+  display: inline-block;
+}
+#characters4{
+  background-image: url("./images/panda.png");
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 60px;
+  margin: 1px;
+  width: 60px;
+  display: inline-block;
+}
+#characters5{
+  background-image: url("./images/panda.png");
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 60px;
+  margin: 1px;
+  width: 60px;
+  display: inline-block;
+}
+#characters6{
+  background-image: url("./images/panda.png");
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 60px;
+  margin: 1px;
+  width: 60px;
+  display: inline-block;
+}
+#characters7{
+  background-image: url("./images/panda.png");
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 60px;
+  margin: 1px;
+  width: 60px;
+  display: inline-block;
 }
