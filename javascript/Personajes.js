@@ -13,7 +13,7 @@ Personajes.prototype.createPersonajes = function(board, body) {
   this.nombre.append(characters);
   x++;
 };
-
+$(document).ready(function(){
 $(init);
 function init() {
   $("#character1").draggable();
@@ -25,3 +25,5 @@ function init() {
   $("#character7").draggable();
   $("#character8").draggable();
 }
+
+      });
