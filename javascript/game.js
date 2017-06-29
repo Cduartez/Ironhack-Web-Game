@@ -1,18 +1,20 @@
-var board = new Board(4, 4);
+$(document).ready(function() {
 
-function paintBoard(board, body) {
-  board.grid.forEach(function(rowArray, i) {
-    var row = $('<div>').addClass('row');
-    for (var x = 0; x < rowArray.length; x++) {
-      var column = $('<div>').addClass('column').attr("col", i).attr("row", x);
-      if (i === 0 || i === 3) {
-        column.addClass('chair');
-      }
-      row.append(column);
-    }
-    body.append(row);
-  });
-}
+  var board = $('#game-board');
+  var mesa = new Table(board,8);
+
+  var playEL = $('#players');
+  var numPersonajes = 8;
+  var personajes = [];
+  for(var i = 0; i< numPersonajes; i++){
+    var p = new Personaje(playEL,i);
+    personajes.append(p);
+  };
+
+});
+
+/*
+var board = new Board(4, 4);
 
 $(document).ready(function() {
   var body = $('#board');
@@ -58,3 +60,5 @@ $(document).ready(function() {
   var body = $('#game-board');
   paintCharacters(characters, body);
 });
+
+*/

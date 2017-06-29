@@ -2,110 +2,22 @@ body {
   background:
 }
 
-.row {
-  height: 100%;
-  width: 100%;
-  text-align: center;
+#game-board{
   position: relative;
+  margin-left: 100px;
 }
 
-.column {
-  background: orange;
-  border-radius: 4px;
-  box-sizing: border-box;
-  height: 80px;
-  margin: 1px;
-  width: 80px;
-  display: inline-block;
+.mesa{
+  background: red;
+  position: absolute;
 }
 
-#cualquiera {
-  background-image: url("./images/panda.png");
-  border-radius: 4px;
+.silla{
+  background: blue;
+  border-top: 8px solid white;
+  border-bottom: 8px solid white;
+  border-left: 4px solid white;
+  border-right: 4px solid white;
   box-sizing: border-box;
-  height: 60px;
-  margin: 1px;
-  width: 60px;
-  display: inline-block;
-  margin-top: 90px;
-}
-
-#manolo {
-  background-image: url("./images/panda.png");
-  border-radius: 4px;
-  box-sizing: border-box;
-  height: 60px;
-  margin: 1px;
-  width: 60px;
-  display: inline-block;
-}
-
-#maria {
-  background-image: url("./images/panda.png");
-  border-radius: 4px;
-  box-sizing: border-box;
-  height: 60px;
-  margin: 1px;
-  width: 60px;
-  display: inline-block;
-}
-
-#characters3 {
-  background-image: url("./images/panda.png");
-  border-radius: 4px;
-  box-sizing: border-box;
-  height: 60px;
-  margin: 1px;
-  width: 60px;
-  display: inline-block;
-}
-
-#characters4 {
-  background-image: url("./images/panda.png");
-  border-radius: 4px;
-  box-sizing: border-box;
-  height: 60px;
-  margin: 1px;
-  width: 60px;
-  display: inline-block;
-}
-
-#characters5 {
-  background-image: url("./images/panda.png");
-  border-radius: 4px;
-  box-sizing: border-box;
-  height: 60px;
-  margin: 1px;
-  width: 60px;
-  display: inline-block;
-}
-
-#characters6 {
-  background-image: url("./images/panda.png");
-  border-radius: 4px;
-  box-sizing: border-box;
-  height: 60px;
-  margin: 1px;
-  width: 60px;
-  display: inline-block;
-}
-
-#characters7 {
-  background-image: url("./images/panda.png");
-  border-radius: 4px;
-  box-sizing: border-box;
-  height: 60px;
-  margin: 1px;
-  width: 60px;
-  display: inline-block;
-}
-
-.chair {
-  background-image: url("./images/sofa.png");
-  box-sizing: border-box;
-  height: 60px;
-  margin: 1px;
-  width: 60px;
-  display: inline-block;
-  background
+  position: absolute;
 }
