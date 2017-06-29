@@ -1,8 +1,8 @@
 function Table(parent,comensales) {
   this.numComensales = comensales;
-  this.comensalWidth = 100;
+  this.comensalWidth = 80;
   this.sillas = [];
-  this.parent = parent;
+  this.parent = parent; //board
   this.createTable();
 }
 
@@ -12,7 +12,7 @@ Table.prototype.createTable = function(board, body) {
   var h = 200;
   var mesa = $('<div>').addClass('mesa')
                        .css({
-                          width:w,
+                          width: w,
                           height: h,
                           top: this.comensalWidth,
                           left: 0
@@ -32,13 +32,13 @@ Table.prototype.createTable = function(board, body) {
   }
 
   // Parte de abajo de la mesa
-  for(var i=0; i < Math.floor(this.numComensales/2); i++){
-    var silla = $('<div>').addClass('silla')
+  for(var j=0; j < Math.floor(this.numComensales/2); j++){
+    var silla = $('<div>').addClass('silla abajo')
                           .css({
                             width:this.comensalWidth,
                             height: this.comensalWidth,
                             top: h + this.comensalWidth,
-                            left: i*this.comensalWidth
+                            left: j*this.comensalWidth
                           });
     this.sillas.push(silla);
   }
@@ -46,7 +46,7 @@ Table.prototype.createTable = function(board, body) {
   this.sillas.forEach(function(e){
     that.parent.append(e);
   });
-}
+};
 
 
 

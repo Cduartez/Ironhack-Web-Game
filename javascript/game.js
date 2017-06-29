@@ -4,14 +4,26 @@ $(document).ready(function() {
   var mesa = new Table(board,8);
 
   var playEL = $('#players');
+  var names = [
+    'Moracho',
+    'Clau',
+    'Teresa',
+    'Milojevic',
+    'Mónica',
+    'Mari Fer',
+    'Rosa',
+    'Salva'
+  ];
   var numPersonajes = 8;
   var personajes = [];
   for(var i = 0; i< numPersonajes; i++){
-    var p = new Personaje(playEL,i);
-    personajes.append(p);
-  };
+    personajes.push(new Personajes(playEL));
+    // personajes.push(new Personajes(names[i]));
+  }
 
+  console.log(personajes);
 });
+
 
 /*
 var board = new Board(4, 4);
