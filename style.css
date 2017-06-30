@@ -48,6 +48,58 @@ h1{
   position: absolute;
 }
 
+
+.comensals:before{
+  content:"";
+  display: none;
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  position: absolute;
+  top: -70px;
+}
+
+#character1:hover:before{
+  background-image: url("./images/like 1.png");
+  background-size: cover;
+  display: block;
+}
+#character2:hover:before{
+  background-image: url("./images/like2.png");
+  background-size: cover;
+  display: block;
+}
+#character3:hover:before{
+  background-image: url("./images/like3.png");
+  background-size: cover;
+  display: block;
+}
+#character4:hover:before{
+  background-image: url("./images/like4.png");
+  background-size: cover;
+  display: block;
+}
+#character5:hover:before{
+  background-image: url("./images/like5.png");
+  background-size: cover;
+  display: block;
+}
+#character6:hover:before{
+  background-image: url("./images/like6.png");
+  background-size: cover;
+  display: block;
+}
+#character7:hover:before{
+  background-image: url("./images/like7.png");
+  background-size: cover;
+  display: block;
+}
+#character8:hover:before{
+  background-image: url("./images/like8.png");
+  background-size: cover;
+  display: block;
+}
+
 .comensals {
   border-top: 8px;
   border-bottom: 8px;
@@ -64,12 +116,15 @@ h1{
 #character1 {
 background-image: url("./images/personaje1.png");
 background-size: cover;
+}
 
+#character1:hover{
 
 }
 #character2 {
   background-image: url("./images/personaje2.png");
   background-size: cover;
+
 }
 
 #character3 {
