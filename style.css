@@ -21,6 +21,11 @@ h1{
 #players {
   position: absolute;
 }
+.timer{
+  font-family: sans-serif;
+  margin-top: 10px;
+
+}
 
 .silla {
   background-image: url("./images/sofa.png");

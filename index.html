@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <title>Dinner </title>
-  <head>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="javascript/table.js"></script>
-      <script type="text/javascript" src="javascript/personajes.js"></script>
-    <script type="text/javascript" src="javascript/game.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="javascript/table.js"></script>
+  <script type="text/javascript" src="javascript/personajes.js"></script>
+  <script type="text/javascript" src="javascript/Timer.js"></script>
+  <script type="text/javascript" src="javascript/game.js"></script>
 
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <h1>Dinner Game</h1>
-    <div id="game-board"></div>
-    <div id="players"></div>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-  </body>
+<body>
+  <h1>Dinner Game</h1>
+  <button class="start-game" type="button">Start game</button>
+  <div id="game-board"></div>
+  <div id="players"></div>
+  <div class="timer"> Time Left: <span id="counter"> 0 </span>
+  </div>
+
+</body>
+
 </html>
