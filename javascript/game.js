@@ -11,11 +11,11 @@ $(document).ready(function() {
   var container = $('#players');
   var names = [
     'Moracho',
-    'Clau',
+    'José',
     'Teresa',
-    'Milojevic',
+    'Fernanda',
     'Mónica',
-    'Mari Fer',
+    'Ana',
     'Rosa',
     'Salva'
   ];
