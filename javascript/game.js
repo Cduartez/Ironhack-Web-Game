@@ -3,13 +3,12 @@ var counter;
 $(document).ready(function() {
   $(".start-game").click(function(){
     counter = new Timer();
-    console.log('Sara me machaca')
   });
 
   var board = $('#game-board');
   var mesa = new Table(board,8);
 
-  var playEL = $('#players');
+  var container = $('#players');
   var names = [
     'Moracho',
     'Clau',
@@ -23,10 +22,14 @@ $(document).ready(function() {
   var numPersonajes = 8;
   var personajes = [];
   for(var i = 0; i< numPersonajes; i++){
-    personajes.push(new Personajes(playEL));
+    personajes.push(new Personajes(
+      container,
+      names[i],
+      names[Math.floor((Math.random() * (names.length / 2)) + 1)],
+      names[Math.floor((Math.random() * names.length) + 1)]
+    ));
     // personajes.push(new Personajes(names[i]));
   }
-
   console.log(personajes);
 });
 

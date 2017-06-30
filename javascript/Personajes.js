@@ -1,7 +1,10 @@
 var x = 1;
 
-function Personajes(nombre) {
+function Personajes(container, nombre, likes, dislikes) {
+  this.container = container;
   this.nombre = nombre; //#players
+  this.likes = likes;
+  this.dislikes = dislikes;
   this.createPersonajes();
 }
 
@@ -10,20 +13,21 @@ Personajes.prototype.createPersonajes = function(board, body) {
     width: 70,
     height: 70
   }).attr('id', 'character' + x);
-  this.nombre.append(characters);
+  this.container.append(characters);
   x++;
 };
-$(document).ready(function(){
-$(init);
-function init() {
-  $("#character1").draggable();
-  $("#character2").draggable();
-  $("#character3").draggable();
-  $("#character4").draggable();
-  $("#character5").draggable();
-  $("#character6").draggable();
-  $("#character7").draggable();
-  $("#character8").draggable();
-}
+$(document).ready(function() {
+  $(init);
 
-      });
+  function init() {
+    $("#character1").draggable();
+    $("#character2").draggable();
+    $("#character3").draggable();
+    $("#character4").draggable();
+    $("#character5").draggable();
+    $("#character6").draggable();
+    $("#character7").draggable();
+    $("#character8").draggable();
+  }
+
+});
